@@ -1,0 +1,138 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #a8e6cf, #388e3c);
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #66ca5d;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #282424;
+}
+
+/* Sección Quienes Somos */
+.about-us {
+    padding: 20px;
+    text-align: left;
+}
+
+.about-us h2 {
+    color: #75b878;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us ul li {
+    background: url('checkmark.png') no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Sección Galería */
+.media {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 200px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    margin: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Sección Video */
+.video {
+    padding: 20px;
+    text-align: center;
+}
+
+video {
+    max-width: 80%; /* Asegura que el video no exceda el ancho del contenedor */
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+video {
+    width: 500px; /* Ancho deseado en píxeles */
+    height: 500px; /* Alto deseado en píxeles */
+    max-width: 100%; /* Asegura que el video no se desborde en pantallas más pequeñas */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra opcional */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Íconos de redes sociales */
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #679869; /* Cambia a verde al pasar el mouse */
+}

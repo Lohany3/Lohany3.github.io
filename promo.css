@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D1E7FF; /* Fondo azul más claro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.alumnos-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.alumnos-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.alumnos-gallery li {
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.alumnos-gallery li:hover {
+    transform: scale(1.05);
+}
+
+.alumno {
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
